@@ -9,9 +9,13 @@ public class TablasMultiplicar {
 		//*****************************************
 		// Crear una función que imprima las 10 tablas de 
 		// multiplicar
+			for (int i = 1; i <= 10; i++) {
+	            System.out.println("Tabla de multiplicar del " + i);
+	            for (int j = 1; j <= 10; j++) {
+	                System.out.println(i  + " X " + j + " =" + i*j);
+	            }
+			}
 		//*****************************************
-		
-		
 	}
 	public static void saludar() {
 		// TODO Auto-generated method stub
