@@ -2,16 +2,12 @@ import java.util.Scanner;
 public class TablasMultiplicar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Práctica Tablas de Multiplicar
-			saludar();
-			
-		//*****************************************
-		// Crear una función que imprima las 10 tablas de 
-		// multiplicar
-		//*****************************************
-		
-		
+		for(int i = 1;i<11; i++) {
+			System.out.println("Tabla de multiplicar del" +i);
+			for(int e = 1; e<11; e++) {
+				System.out.println(i+" x "+e+" = "+(i*e));	
+			}	
+		}
 	}
 	public static void saludar() {
 		// TODO Auto-generated method stub
