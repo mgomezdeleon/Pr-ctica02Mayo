@@ -10,7 +10,7 @@ public class TablasMultiplicar {
 		// Crear una función que imprima las 10 tablas de 
 		// multiplicar
 		//*****************************************
-		
+	System.out.println("hola");	
 		
 	}
 	public static void saludar() {
