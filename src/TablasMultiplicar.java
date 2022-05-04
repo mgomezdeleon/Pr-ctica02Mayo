@@ -3,18 +3,29 @@ public class TablasMultiplicar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Práctica Tablas de Multiplicar
+		// Prï¿½ctica Tablas de Multiplicar
 			saludar();
 			
+			multiplicar();
+			
 		//*****************************************
-		// Crear una función que imprima las 10 tablas de 
+		// Crear una funciï¿½n que imprima las 10 tablas de 
 		// multiplicar
 		//*****************************************
 		
 		
 	}
+	
+	public static void multiplicar() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Tabla del " + i);
+			for (int j = 0; j < 10; j++) {
+				System.out.println(i +  "*" + j + " = " + i*j);
+			}
+		}
+	}
 	public static void saludar() {
 		// TODO Auto-generated method stub
-		System.out.println("Buenos días 1ºde Dam!!!");
+		System.out.println("Buenos dï¿½as 1ï¿½de Dam!!!");
 	}
 }
